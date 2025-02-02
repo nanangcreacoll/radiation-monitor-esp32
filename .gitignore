@@ -3,3 +3,8 @@
 .clang_complete
 .gcc-flags.json
 .ccls
+.cache
+/compile_commands.json
+/include/env.hpp
+/*.csv
+/*.txt
