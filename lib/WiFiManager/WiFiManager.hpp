@@ -1,11 +1,13 @@
 #ifndef WIFI_MANAGER_HPP
 #define WIFI_MANAGER_HPP
 
+#include <Arduino.h>
 #include <WiFi.h>
 
 class WiFiManager
 {
 private:
+    bool connected = false;
     String ssid = "";
     String password = "";
 public:
